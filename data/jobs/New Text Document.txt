@@ -1,0 +1,34 @@
+About the job
+Introduction
+
+N/A
+
+Your Role And Responsibilities
+
+We’re on the lookout for sharp, curious minds to join us for a Summer Internship where real problems meet real solutions. If you’re passionate about AI, data, code, and driving change, this one’s for you.
+
+What You’ll Do
+
+Tackle real business challenges through data exploration and feature engineering
+Build and evaluate ML models — from classification to NLP and even reinforcement learning
+ Translate complex insights into clear, actionable strategies for stakeholders
+
+What You’ll Build
+
+ End-to-end ETL pipelines that power smarter decisions
+ Scalable, secure, and well-documented data systems that respect governance and privacy
+
+What You’ll Develop
+
+ Cloud-native microservices and full-stack solutions
+ Clean, tested, and reviewed code that actually ships
+
+This isn’t just an internship — it’s a chance to learn, build, and make real impact.
+
+Let’s shape the future, together.
+
+Required Technical And Professional Expertise
+
+Computer Science /Engineering student
+Available for 2 months commitment
+Very Good/Excellent command of English

@@ -1,0 +1,55 @@
+About the job
+Job Description
+
+As a Software Development Engineer in the Network Automation team, you will play a pivotal role in design and developemnt of Network Management and Automation solutions for carrier-grade IP networks. Leverage your expertise in Java, Golang, Microservices, Kubernetes, GNMI, and Netconf/YANG to drive innovative solutions and tackle complex challenges . Collaborate with talented professionals who share your passion for cutting-edge technology, further enhancing your skills . Enjoy the excitement of working on high-impact projects, while benefiting from a flexible work environment that prioritizes both productivity and well-being. Embrace the chance to be part of the team shaping the future of network management and automation at Nokia!
+
+How You Will Contribute And What You Will Learn
+
+Work with cross-functional agile teams in designing and developing innovative solutions to solve complex problems 
+Collaborate closely with product managers and stakeholders to refine technical requirements. 
+Participate in architectural discussions to refine and optimize system designs for scalability and performance. Engage in hands-on coding and system design, ensuring high quality standards and best practices are maintained. 
+Drive innovation by exploring new ideas, tools, and methodologies to enhance team performance and project outcomes. 
+Contribute to challenging projects that push the boundaries of technology, working alongside some of the industry's brightest engineers.
+
+Key Skills And Experience
+
+We are looking for junior as well as fresh graduates with a programming background. The key is a passion for software development and finding joy in programming. You have :
+
+0-2 years of experience
+A good understanding and experience with programming and debugging in Java/Golang/Python
+A Degree in Computer Science Engineering or related field 
+Hands-on experience with SpringBoot, REST, Docker/Kubernetes 
+Strong problem solving and analytical skills 
+Fluent English knowledge - verbal and written as well 
+
+It would be nice if you also had:
+
+Familiarity with network management and related protocols (e.g. GNMI/NETCONF/YANG, RESTCONF, SNMP )
+Understanding of scalable application design and implementation patterns
+Cloud Native Application design patterns
+
+About Us
+
+ Come create the technology that helps the world act together
+
+Nokia is committed to innovation and technology leadership across mobile, fixed and cloud networks. Your career here will have a positive impact on people’s lives and will help us build the capabilities needed for a more productive, sustainable, and inclusive world.
+
+We challenge ourselves to create an inclusive way of working where we are open to new ideas, empowered to take risks and fearless to bring our authentic selves to work
+
+What we offer
+
+Nokia offers continuous learning opportunities, well-being programs to support you mentally and physically, opportunities to join and get supported by employee resource groups, mentoring programs and highly diverse teams with an inclusive culture where people thrive and are empowered.
+
+Nokia is committed to inclusion and is an equal opportunity employer
+
+Nokia has received the following recognitions for its commitment to inclusion & equality:
+
+ One of the World’s Most Ethical Companies by Ethisphere 
+ Gender-Equality Index by Bloomberg 
+ Workplace Pride Global Benchmark 
+
+At Nokia, we act inclusively and respect the uniqueness of people. Nokia’s employment decisions are made regardless of race, color, national or ethnic origin, religion, gender, sexual orientation, gender identity or expression, age, marital status, disability, protected veteran status or other characteristics protected by law.
+
+We are committed to a culture of inclusion built upon our core value of respect.
+
+Join us and be part of a company where you will feel included and empowered to succeed.

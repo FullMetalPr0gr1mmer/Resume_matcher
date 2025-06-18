@@ -1,0 +1,77 @@
+About the job
+Job title: Software Development Engineer I (Frontend)
+Location: New Cairo, Egypt, Cairo
+
+Reporting to: Engineering Manager II
+
+
+
+About noon 
+
+noon, the region's leading consumer commerce platform. On December 12th, 2017, noon launched its consumer platform in Saudi Arabia and the UAE, expanding to Egypt in February 2019. The noon ecosystem of services now includes marketplaces for food delivery, quick-commerce, fintech, and fashion. noon is a work in progress; we’re six years in, but only 5% done.
+noon’s mission: Ring every doorbell, everyday.
+
+
+
+
+What you'll do:
+
+Team noon has some of the fastest, smartest, and hardest-working people we've encountered. With a young, aggressive, and talented team, we're driving major missions forward.
+
+
+What is the CAKE program:
+
+
+
+CAKE is a very carefully crafted initiative by Noon that aims to recruit and nurture talented fresh graduates from the region and train them to become experts in GCC’s e-commerce industry. It consists of a 10-week intensive training program that equips the new joiners with the technical and domain knowledge to become productive members of the Noon engineering ecosystem. Through end-to-end training projects, technical tutorials, system design sessions, weekly Q/As with the CTO, and calls with members of Noon’s different verticals, the new joiners will learn about noon from many angles and will eventually onboard into specialized teams. The program also includes mentorship to help the joiners as they progress in their career.
+
+
+
+
+Responsibilities:
+
+
+
+As a Junior Frontend Engineer at noon, you will be joining a specialized team within one of our business units. This fast-paced, multidisciplinary team is composed of frontend and backend engineers, product managers, user experience professionals, and quality assurance experts.
+In this role, your responsibilities will include:
+
+
+Implementing high-quality web and mobile application user interfaces using modern technologies and tools, while solving any engineering challenges that arise.
+Reviewing and providing feedback on backend API designs to ensure they are compatible with your frontend applications.
+Collaborating with the product team to prototype new features and wireframes.
+Ensuring that your implemented user interfaces meet the requirements of the design, are visually appealing, easy to use, and straightforward to implement and maintain.
+Ensuring that user interfaces function seamlessly across various screen sizes, browsers, and platforms, including iOS and Android.
+Localizing applications for left-to-right and right-to-left languages while keeping accessibility in mind.
+Learning and understanding libraries, patterns, and platforms necessary for creating structured and scalable web and mobile applications that are clean, usable, and accessible.
+Conducting self-testing of your work before passing it on to Quality Assurance.
+Preparing and shipping web and mobile app builds to ensure they are ready for publication on app publishing platforms.
+Working closely with Engineers, Product Managers, and Quality Assurance Engineers to achieve team goals, while communicating effectively throughout the process.
+
+
+Qualifications & Requirements: 
+
+
+
+Bachelor’s degree in a related field (Computer Science, Engineering)
+Knowledge of JavaScript, and a basic understanding of JavaScript build tools.
+Knowledge of TypeScript or another strongly typed programming language is a plus.
+Knowledge of React or React Native (or a similar web or cross-platform mobile library/framework) is a plus.
+Core understanding of git and its key workflows for team interactions.
+Backend Knowledge of NodeJS or another backend language/platform is a plus.
+Being very interested in working with React web application development and React Native mobile application development.
+Having a desire to learn what it takes to deliver outstanding cross-platform web & mobile applications.
+Having a knack for clean user interfaces and usability, and being able to think from the user’s perspective.
+Being a self-driven individual, and can build and maintain projects end to end.
+
+
+who will excel?
+
+
+
+‘noon isn’t for everyone. And that’s okay.’ This is one of our core operating principles.
+
+
+We're looking for resourceful doers. Thinkers who are both creative and analytical. Problem solvers who are enthusiastic about delivering results. Our ideal candidate will be comfortable in a fast-paced, multi-tasked, high-energy and often ambiguous environment.
+
+
+If the above values resonate with you, then noon might be the place for you.
