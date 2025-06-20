@@ -1,15 +1,17 @@
+import streamlit as st
 from src.parser.parser import * #imports
 from src.text_cleaner.text_cleaner import *
 from src.matcher.similarity_engine import *
+from src.utils.exporter import *
 resumes = extract_all_resumes("data/resumes")
 jobs = load_job_descriptions("data/jobs")
+
 '''for name,text in resumes.items():
     print(f"----{name}----\n {preprocess_text(text)}...\n")
 
-    
+
     for name,text in jobs.items():
         print(f"----{name}----\n {preprocess_text(text)}...\n")'''
-
 
 processed_resumes ={name:preprocess_text(text) for name,text in resumes.items()}
 processed_jobs ={name:preprocess_text(text) for name,text in jobs.items()}
@@ -21,3 +23,4 @@ for resume, job_scores in top_matches.items():
     for job, score in job_scores:
         print(f"  -> Match with '{job}': {score}")
     print()
+export_to_csv(top_matches)
