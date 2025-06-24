@@ -1,4 +1,4 @@
-import spacy
+'''import spacy
 
 nlp = spacy.load("en_core_web_sm") #en_core_web_sm is a lightweight En lang processing model , works on cpu
 # -> provides comprehensive nlp processing capabilities while maining a small footPrint
@@ -11,4 +11,21 @@ nlp = spacy.load("en_core_web_sm") #en_core_web_sm is a lightweight En lang proc
 def preprocess_text(text):
     doc=nlp(text.lower())
     tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct and token.is_alpha]
-    return " ".join(tokens) # returns a single sting of all the tokens
+    return " ".join(tokens) # returns a single sting of all the tokens'''
+
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+stop_words = set(stopwords.words("english"))
+
+def preprocess_text(text):
+    text = text.lower()
+    text = re.sub(r"[^a-z\s]", "", text)
+    words = word_tokenize(text)
+    words = [w for w in words if w not in stop_words]
+    return " ".join(words)
