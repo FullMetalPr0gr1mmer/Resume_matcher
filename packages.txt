@@ -1,0 +1,3 @@
+libmupdf-dev
+libfreetype6
+libharfbuzz0b
