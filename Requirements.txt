@@ -1,5 +1,5 @@
 streamlit
-pymupdf==1.26.1
+pymupdf
 pandas
 scikit-learn
 spacy
