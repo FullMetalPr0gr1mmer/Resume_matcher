@@ -13,19 +13,32 @@ def preprocess_text(text):
     tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct and token.is_alpha]
     return " ".join(tokens) # returns a single sting of all the tokens'''
 
+import os
 import re
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk_data_path = "/tmp/nltk_data"
+if not os.path.exists(nltk_data_path):
+    os.makedirs(nltk_data_path)
 
-stop_words = set(stopwords.words("english"))
+nltk.data.path.append(nltk_data_path)
+
+try:
+    stop_words = set(stopwords.words("english"))
+except LookupError:
+    nltk.download("stopwords", download_dir=nltk_data_path)
+    stop_words = set(stopwords.words("english"))
+
+try:
+    nltk.word_tokenize("hello")
+except LookupError:
+    nltk.download("punkt", download_dir=nltk_data_path)
 
 def preprocess_text(text):
     text = text.lower()
-    text = re.sub(r"[^a-z\s]", "", text)
+    text = re.sub(r"[^a-z\s]", " ", text)
     words = word_tokenize(text)
     words = [w for w in words if w not in stop_words]
     return " ".join(words)
