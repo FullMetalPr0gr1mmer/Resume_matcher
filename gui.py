@@ -6,17 +6,6 @@ import pandas as pd
 
 import streamlit as st
 
-try:
-    import fitz
-    st.write("✅ fitz is importable!")
-except Exception as e:
-    st.error(f"🚫 fitz import failed with: {e}")
-    raise
-
-try:
-    import fitz
-except ModuleNotFoundError:
-    import PyMuPDF as fitz
 
 st.set_page_config(page_title="AI Resume Matcher", layout="wide")
 st.title("AI-Powered Resume Scanner & Job Matcher")

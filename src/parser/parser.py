@@ -1,7 +1,16 @@
-import fitz #pymuPDF which will be used to handle pdfs
-import os
 #pdf_path="../data/resumes"
+import streamlit as st
+try:
+    import fitz
+    st.write("✅ fitz is importable!")
+except Exception as e:
+    st.error(f"🚫 fitz import failed with: {e}")
+    raise
 
+try:
+    import fitz
+except ModuleNotFoundError:
+    import PyMuPDF as fitz
 def extract_text_from_pdf(pdf_path): # runs over each page in a pda extracting all the text in it
     tetx=""
     with fitz.open(pdf_path) as doc:
