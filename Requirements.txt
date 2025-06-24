@@ -5,3 +5,4 @@ scikit-learn~=1.7.0
 spacy~=3.8.7
 sentence-transformers~=4.1.0
 numpy~=2.3.0
+pdfplumber

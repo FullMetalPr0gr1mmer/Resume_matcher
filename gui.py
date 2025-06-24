@@ -40,10 +40,7 @@ if st.button("Submit"):
         st.info("Processing")
         resume_texts={}
         for file in resume_files:
-            doc = fitz.open(stream=file.read(),filetype="pdf")
-            text=""
-            for page in doc:
-                text+=page.get_text()
+            text = extract_text_from_pdf(file)
             resume_texts[file.name]=preprocess_text(text)
         job_descriptions={name:preprocess_text(text) for name,text in job_texts}
         scores = compute_similarity(resume_texts,job_descriptions)
