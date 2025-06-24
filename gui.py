@@ -1,9 +1,4 @@
 import streamlit as st
-import fitz
-import io
-
-from streamlit import subheader
-
 from src.parser.parser import *
 from src.text_cleaner.text_cleaner import *
 from src.matcher.similarity_engine import *
