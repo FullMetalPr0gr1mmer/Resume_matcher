@@ -1,5 +1,6 @@
 streamlit
-PyMuPDF==1.23.0
+pymupdf
 pandas
-spacy
 scikit-learn
+spacy
+sentence-transformers
