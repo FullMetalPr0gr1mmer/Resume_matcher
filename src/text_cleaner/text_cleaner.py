@@ -12,43 +12,24 @@ def preprocess_text(text):
     doc=nlp(text.lower())
     tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct and token.is_alpha]
     return " ".join(tokens) # returns a single sting of all the tokens'''
-import os
 import re
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 
-# ✅ Define temp path for nltk data
-nltk_data_path = "/tmp/nltk_data"
-nltk.data.path.append(nltk_data_path)
-
-# ✅ Download if not found
-if not os.path.exists(nltk_data_path):
-    os.makedirs(nltk_data_path)
-
-try:
-    stop_words = set(stopwords.words("english"))
-except LookupError:
-    nltk.download("stopwords", download_dir=nltk_data_path)
-    stop_words = set(stopwords.words("english"))
-
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    nltk.download("punkt", download_dir=nltk_data_path)
-
+# Basic list of English stopwords (you can add more if needed)
+stop_words = set([
+    "the", "and", "is", "in", "it", "of", "to", "a", "for", "on", "with",
+    "this", "that", "as", "an", "by", "be", "are", "from", "at", "or", "was",
+    "i", "you", "your", "we", "our", "they", "their", "but", "have", "has"
+])
 
 def preprocess_text(text):
+    # Lowercase + remove punctuation
     text = text.lower()
     text = re.sub(r"[^a-z\s]", " ", text)
 
-    # Force tokenizer to use the local nltk_data path
-    tokenizer = nltk.data.load("tokenizers/punkt/english.pickle")
-    sentences = tokenizer.tokenize(text)
-    words = []
-    for sentence in sentences:
-        words.extend(word_tokenize(sentence))
+    # Basic whitespace tokenization
+    words = text.split()
 
-    words = [w for w in words if w not in stop_words]
+    # Remove stopwords
+    words = [word for word in words if word not in stop_words]
+
     return " ".join(words)
